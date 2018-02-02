@@ -1,4 +1,4 @@
-public class testNotify {
+public class TestNotify {
 
     //    this object is used to take lock inside synchronized block
     public static final String monitor = "lockMe";

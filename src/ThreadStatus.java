@@ -5,6 +5,7 @@ public class ThreadStatus {
     public static Thread t2;
 
     public static void main(String[] args) throws InterruptedException {
+//       initializing t1
         t1 = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -19,7 +20,7 @@ public class ThreadStatus {
             }
         }, "Thread 1");
 
-
+//        initializing t2
         t2 = new Thread(new Runnable() {
             @Override
             public void run() {

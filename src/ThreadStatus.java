@@ -42,7 +42,7 @@ public class ThreadStatus {
         }, "Thread 2");
 
 //        Thread.State.NEW
-        System.out.println("State of thread1 and thread 2 when created");
+        System.out.println("State of thread1 and thread 2 when created that is before started");
         System.out.println(t1.getName() + " : " + t1.getState());
         System.out.println(t2.getName() + " : " + t2.getState());
 
